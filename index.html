@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mateusz_Kisiel">
+    <meta name="author" content="Bartosz Żołynia">
+    <title>Mateusz Kisiel - Kancelaria Adwokacka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- WŁASNE STYLE CSS -->
+    <link rel="stylesheet" href="style/style_mat.css" type="text/css">
+    <!-- fonty -->
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira&amp;subset=latin-ext" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- przycisk płynne scrollowanie do góry-->
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollToTop').fadeIn();
+                } else {
+                    $('.scrollToTop').fadeOut();
+                }
+            });
+
+
+            $('.scrollToTop').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+        });
+
+    </script>
+</head>
+
+
+<body>
+
+    <!-- STRZAŁA DO GÓRY -->
+    <button class="scrollToTop" title="Go to top"><i class="fas fa-angle-double-up"></i>
+    </button>
+
+    <!--nawigacja-->
+    <div class="moj_top">
+        <!-- sticky-top, ktory mozna dodac ponizej-->
+        <nav class="navbar navbar-light navbar-expand-md justify-content-center">
+            <div class="container">
+                <a class="navbar-brand text-center" href="#"><img class="img-fluid img_logo" src="img/logo-adwokatura.png"><span class="span_1">Mateusz Kisiel</span><br><span class="span_2">ADWOKAT</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navContent">
+                    <div class="navbar-nav ml-auto">
+
+                        <a id="link1" href="#" class="nav-item nav-link active">Oferta</a>
+
+                        <a id="link2" href="#" class="nav-item nav-link">Kancelaria</a>
+
+                        <a id="link3" href="#" class="nav-item nav-link">Współpraca</a>
+
+                        <a id="link4" href="#" class="nav-item nav-link">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- SEKCJA INTRODUCTION -->
+
+    <div class="jumbotron jumbotron-fluid text-center top">
+        <div class="container">
+            <h1 class="text-uppercase top-header">KANCELARIA ADWOKACKA</h1>
+            <p class="top-text">Adwokat Mateusz Kisiel</p>
+            <hr class="style-eight">
+            <p class="p_top">Sekratariat - tel. 690 973 600</p>
+        </div>
+    </div>
+
+    <!-- SEKCJA AOBUT ME -->
+    <section id="me" class="boxy">
+        <h3 class="text-center text_box">Świadczę usługi w różnorodnych dziedzinach prawa:</h3>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md">
+                    <div class="tech_item text-center">
+                        <img class="img-fluid img_box" src="img/box1.png" alt="prawo cywilne">
+                        <h3 class="header_box">Prawo Cywilne</h3>
+                        <p class="opis_box">Lorem ipsum dolor sit amet diam leo sed tellus nec cursus vitae, vestibulum volutpat, libero wisi, ullamcorper mauris. Cras in nunc. Vestibulum leo. Quisque nec nisl. Sed condimentum magna lorem id eros malesuada fames ac orci massa, feugiat quam et justo.</p>
+                        <button type="button" class="btn btn-sm btn_box" data-toggle="modal" data-target="#myModal_1">Czytaj wiecej...</button>
+                    </div>
+                    <div class="modal fade" tabindex="-1" role="dialog" id="myModal_1">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">PRAWO CYWILNE</h5>
+                                    <button type="button" class="close btn_close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>&sect; - reprezentacja klienta w postępowaniu przed sądem I i II instancji,
+                                        <br>&sect; - sporządzanie wszelkich pism procesowych, w tym m.in. pozwów, odpowiedzi na pozew, zarzutów do opinii, apelacji cywilnych, skarg kasacyjnych, skarg o wznowienie postępowania,
+                                        <br>&sect; - prowadzenie negocjacji w zakresie zawierania ugód sądowych i pozasądowych,
+                                        <br>&sect; - prowadzenie spraw z zakresu prawa rzeczowego m.in.: o zasiedzenie, ochronę posiadania, ustanowienie służebności,
+                                        <br>&sect; - prowadzenie spraw z zakresu prawa spadkowego m.in.: stwierdzenie nabycia spadku, dział spadku, o zapłatę zachowku,
+                                        <br>&sect; - egzekwowanie należności na etapie postępowania windykacyjnego...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="tech_item text-center">
+                        <img class="img-fluid img_box" src="img/box3.png" alt="prawo rodzinne">
+                        <h3 class="header_box">Prawo Rodzinne</h3>
+                        <p class="opis_box">Lorem ipsum dolor sit amet diam leo sed tellus nec cursus vitae, vestibulum volutpat, libero wisi, ullamcorper mauris. Cras in nunc. Vestibulum leo. Quisque nec nisl. Sed condimentum magna lorem id eros malesuada fames ac orci massa, feugiat quam et justo. </p>
+                        <button type="button" class="btn btn-sm btn_box" data-toggle="modal" data-target="#myModal_2">Czytaj wiecej...</button>
+                    </div>
+                    <div class="modal fade" tabindex="-1" role="dialog" id="myModal_2">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">PRAWO RODZINNE</h5>
+                                    <button type="button" class="close btn_close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>&sect; - reprezentacja klienta w postępowaniu przed sądem I i II instancji,
+                                        <br>&sect; - sporządzanie wszelkich pism procesowych, w tym m.in. pozwów, odpowiedzi na pozew, zarzutów do opinii, apelacji cywilnych, skarg kasacyjnych, skarg o wznowienie postępowania,
+                                        <br>&sect; - prowadzenie spraw o rozwód, separację oraz podział majątku,
+                                        <br>&sect; - prowadzenie wszelkich spraw z zakresu prawa rodzinnego, w tym m.in. spraw o alimenty, o ustalenie kontaktów z dzieckiem, ograniczenie lub pozbawienie władzy rodzicielskiej, ustalenie/ zaprzeczenie ojcostwa, macierzyństwa, unieważnienie ślubu.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="tech_item text-center">
+                        <img class="img-fluid img_box" src="img/box2.png" alt="prawo karne">
+                        <h3 class="header_box">Prawo Karne</h3>
+                        <p class="opis_box">Lorem ipsum dolor sit amet diam leo sed tellus nec cursus vitae, vestibulum volutpat, libero wisi, ullamcorper mauris. Cras in nunc. Vestibulum leo. Quisque nec nisl. Sed condimentum magna lorem id eros malesuada fames ac orci massa, feugiat quam et justo. </p>
+                        <button type="button" class="btn  btn-sm btn_box" data-toggle="modal" data-target="#myModal_3">Czytaj wiecej...</button>
+                    </div>
+                    <div class="modal fade" tabindex="-1" role="dialog" id="myModal_3">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">PRAWO KARNE</h5>
+                                    <button type="button" class="close btn_close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>&sect; - reprezentacja klienta w postępowaniu przygotowawczym oraz na etapie postępowania sądowego zarówno przed Sądem I jak i II instancji w charakterze podejrzanego, oskarżonego, pokrzywdzonego, oskarżyciela posiłkowego oraz oskarżyciela prywatnego,
+                                        <br>&sect; - sporządzanie środków zaskarżenia w postaci apelacji, kasacji, zażalenia, wniosku o ułaskawienie,
+                                        <br>&sect; - sporządzanie prywatnego aktu oskarżenia,
+                                        <br>&sect; - reprezentacja klienta po prawomocnym skazaniu w zakresie odroczenia wykonania kary, zawieszenia wykonania kary. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="tech_item text-center">
+                        <img class="img-fluid img_box" src="img/box4.png" alt="prawo pracy">
+                        <h3 class="header_box">Prawo Pracy</h3>
+                        <p class="opis_box">Lorem ipsum dolor sit amet diam leo sed tellus nec cursus vitae, vestibulum volutpat, libero wisi, ullamcorper mauris. Cras in nunc. Vestibulum leo. Quisque nec nisl. Sed condimentum magna lorem id eros malesuada fames ac orci massa, feugiat quam et justo.</p>
+                        <button type="button" class="btn btn-sm btn_box" data-toggle="modal" data-target="#myModal_4">Czytaj wiecej...</button>
+                    </div>
+                    <div class="modal fade" tabindex="-1" role="dialog" id="myModal_4">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">PRAWO PRACY</h5>
+                                    <button type="button" class="close btn_close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>&sect; - reprezentacja klienta w postępowaniach przed organami administracji publicznej oraz przed sądami,
+                                        <br>&sect; - sporządzanie pozwów związanych z nieuzasadnionym lub niezgodnym z prawem wypowiedzeniem umowy o pracę, stosowaniem mobbingu względem pracownik czy też naruszania zasad równego traktowania pracowników,
+                                        <br>&sect; - sporządzanie odwołania od decyzji w sprawach rent i emerytur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="tech_item text-center">
+                        <img class="img-fluid img_box" src="img/box5.png" alt="prawo administracyjne">
+                        <h3 class="header_box">Prawo Administracyjne</h3>
+                        <p class="opis_box">Lorem ipsum dolor sit amet diam leo sed tellus nec cursus vitae, vestibulum volutpat, libero wisi, ullamcorper mauris. Cras in nunc. Vestibulum leo. Quisque nec nisl. Sed condimentum magna lorem id eros malesuada fames ac orci massa, feugiat quam et justo.</p>
+                        <button type="button" class="btn btn-sm btn_box" data-toggle="modal" data-target="#myModal_5">Czytaj wiecej...</button>
+                    </div>
+                    <div class="modal fade" tabindex="-1" role="dialog" id="myModal_5">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">PRAWO ADMINISTRACYJNE</h5>
+                                    <button type="button" class="close btn_close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>&sect; - reprezentacja klienta w postępowaniach przed organami administracji publicznej oraz Wojewódzkim Sądem Administracyjnym oraz Naczelnym Sądem Administracyjnym,
+                                        <br>&sect; - sporządzanie środków zaskarżenia takich jak m.in. odwołanie, zażalenia, skargi administracyjnej oraz skargi kasacyjnej,
+                                        <br>&sect; - doradztwo prawne w sprawach z zakresu prawa administracyjnego.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="tech_item text-center">
+                        <img class="img-fluid img_box" src="img/box6.png" alt="prawo gospodarcze">
+                        <h3 class="header_box">Prawo Gospodarcze</h3>
+                        <p class="opis_box">Lorem ipsum dolor sit amet diam leo sed tellus nec cursus vitae, vestibulum volutpat, libero wisi, ullamcorper mauris. Cras in nunc. Vestibulum leo. Quisque nec nisl. Sed condimentum magna lorem id eros malesuada fames ac orci massa, feugiat quam et justo.</p>
+                        <button type="button" class="btn  btn-sm btn_box" data-toggle="modal" data-target="#myModal_6">Czytaj wiecej...</button>
+                    </div>
+                    <div class="modal fade" tabindex="-1" role="dialog" id="myModal_6">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">PRAWO GOSPODARCZE</h5>
+                                    <button type="button" class="close btn_close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>&sect; - reprezentacja klienta w postępowaniach przed sądem I i II instancji,
+                                        <br>&sect; - sporządzanie i opiniowanie umów oraz aktów wewnętrznych osób prawnych,
+                                        <br>&sect; - prowadzenie spraw w postępowaniu rejestrowym w Krajowym Rejestrze Sądowym,
+                                        <br>&sect; - obsługa osób prawnych i przedsiębiorców,
+                                        <br>&sect; - prowadzenie spraw związanych z ochroną praw konsumenta,
+                                        <br>&sect; - prowadzenie postępowań o ogłoszenie upadłości konsumenckiej.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SEKCJA O KANCELARII-->
+    <section id="law" class="kancelaria">
+        <div class="text-center">
+            <h2 class="text_kanc text-uppercase">O kancelarii:</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/portret.png" class="img-fluid mx-auto d-block py-3" alt="portret" style="width:60%">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="text-center p_kanc">Lorem ipsum dolor sit amet mauris viverra quis, tincidunt wisi, fermentum quis, lacinia accumsan sit amet, magna. Integer id erat sit amet wisi. Nam laoreet urna. Nunc sapien. Aliquam bibendum, urna quis justo. Vivamus malesuada et, varius ac, urna. Suspendisse quis velit. Suspendisse adipiscing. Vestibulum non dui. Class aptent taciti sociosqu ad litora torquent per inceptos hymenaeos. Nunc placerat ante. Lorem ipsum primis in massa. Pellentesque fringilla mi, nec est. Nunc tempor varius, quam nibh ac nunc. Sed malesuada elit tincidunt in, elementum nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCJA KONTAKT -->
+    <section id="kontakt" class="kontakt">
+        <div class="text-center">
+            <h2 class="text_kontakt text-uppercase">Kontakt</h2>
+        </div>
+        <div class="text-center">
+            <h1 class="kont_h1">Adwokat Mateusz Kisiel</h1>
+            <p class="p_kont"><i class="fas fa-phone"></i>Sekratariat - tel. <span class="cont_bold">690 973 600</span>
+                <br><i class="fas fa-mobile-alt"></i>tel. kom. <span class="cont_bold">510 672 398</span>
+                <br><i class="fas fa-envelope-open"></i>e-mail: <span class="cont_bold">kancelaria.kisiel@gmail.com</span></p>
+            <hr class="style-eight_2nd">
+            <p class="p_kont">ul. Teofila Lenartowicza 25/1
+                <br>35-051 Rzeszów
+            </p>
+        </div>
+    </section>
+
+    <!-- MAPA -->
+
+    <div id="map" style="width:1920px; height:350px" class="mx-auto d-block img-fluid">Mapa</div>
+
+    <script>
+        function myMap() {
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: new google.maps.LatLng(50.027442, 21.997479),
+                zoom: 17,
+                mapTypeId: 'roadmap'
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+
+            var myCenter = new google.maps.LatLng(50.027442, 21.997479);
+            var marker = new google.maps.Marker({
+                position: myCenter,
+                animation: google.maps.Animation.BOUNCE,
+                icon: 'placeholder.png'
+            });
+            marker.setMap(map);
+        }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0COoI1DAOry00OIkjgIIYzyxEzaShrvQ&callback=myMap"></script>
+    </div>
+
+    <!-- STOPKA-->
+    <section class="text-center copyright">
+        <div class="container">
+            <span style="color: white; font-size: 18px">&copy; Copyrights 2018 Kancelaria Prawna Mateusz Kisiel</span>
+            <span class="mt-2 d-block copy_project" style="color: white; font-size: 15px">Designed and made by Bartosz Żołynia</span>
+            <span style="color: white; font-size: 10px">Icons made by Freepik from www.flaticon.com</span>
+        </div>
+    </section>
+    <!-- SCROLL TO DANEGO MIEJSCA -->
+    <script>
+        jQuery(function($) {
+            //zrezetuj scrolla
+            $.scrollTo(0);
+            $('#link1').click(function() {
+                $.scrollTo($('#me'), 700);
+            });
+        });
+
+        jQuery(function($) {
+            //zrezetuj scrolla
+            $.scrollTo(0);
+            $('#link2').click(function() {
+                $.scrollTo($('#law'), 700);
+            });
+        });
+
+        jQuery(function($) {
+            //zrezetuj scrolla
+            $.scrollTo(0);
+            $('#link3').click(function() {
+                $.scrollTo($('#wspolpraca'), 700);
+            });
+        });
+
+        jQuery(function($) {
+            //zrezetuj scrolla
+            $.scrollTo(0);
+            $('#link4').click(function() {
+                $.scrollTo($('#kontakt'), 700);
+            });
+        });
+
+    </script>
+
+    <script src="bootstrap/jquery.scrollTo.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js "></script>
+
+</body>
+
+
+</html>

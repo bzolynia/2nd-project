@@ -1,0 +1,277 @@
+body {
+    background-color: white;
+
+}
+
+a {
+    font-family: Cinzel;
+    font-size: 1.1rem;
+    margin: 0px 3px;
+    text-transform: uppercase;
+    color: white !important;
+    cursor: pointer;
+}
+
+a:hover {
+
+    color: #ffdd8e !important;
+    transition: 0.2s;
+
+}
+
+.navbar-toggler {
+    padding: 1px 1px !important
+}
+
+.navbar {
+    padding: .3rem 1rem !important;
+}
+
+.span_1 {
+    font-size: 26px !important;
+    text-transform: uppercase;
+    padding-left: 4px;
+    font-family: Cinzel;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+
+}
+
+.span_2 {
+    font-size: 18px !important;
+    text-transform: uppercase;
+    font-family: Cinzel;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+i {
+    font-size: 1.3rem;
+    padding-right: 8px;
+}
+
+.cont_bold {
+    font-weight: 600;
+}
+
+.moj_top {
+    background-color: #1a441f;
+    padding-top: 0px
+}
+
+.top {
+    padding: 90px 0 70px;
+    background-image: url(../img/puzzle-3223941_1920.jpg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.img_logo {
+    width: 23%;
+    float: left;
+    border-radius: 50% 50%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.top-header {
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: Playfair Display
+}
+
+.top-text {
+    font-size: 3.3rem;
+    font-family: Playfair Display;
+    font-weight: 550;
+    margin-top: 15px;
+    text-shadow: 0 0 3px white;
+
+}
+
+hr.style-eight {
+    overflow: visible;
+    /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    font-size: 1.6em;
+    padding: 0 0.25em;
+    background: #f4eff3;
+}
+
+hr.style-eight_2nd {
+    overflow: visible;
+    /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.style-eight_2nd:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    font-size: 1.6em;
+    padding: 0 0.25em;
+    background: #ffffff;
+}
+
+.btn_box {
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: darkgreen;
+    font-style: italic;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.btn_box:hover {
+    opacity: 0.7;
+
+}
+
+.modal-body {
+    background-color: beige;
+}
+
+.modal-header {
+    background-color: bisque;
+}
+
+.btn_close {
+    cursor: pointer;
+}
+
+.text_box {
+    font-family: Playfair Display;
+    padding-bottom: 20px;
+}
+
+.header_box {
+    font-family: Saira;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 10px 0 5px 0;
+}
+
+.img_box {
+    transition: all .2s ease-in-out;
+}
+
+.img_box:hover {
+    transform: scale(1.1);
+}
+
+.opis_box {
+    font-size: .9rem;
+    font-family: Saira;
+}
+
+.tech_item {
+    padding: 10px 0
+}
+
+.text_kanc {
+    font-family: Playfair Display;
+    padding: 20px 0;
+    margin: 20px 0;
+    color: black;
+
+}
+
+.p_kanc {
+    font-size: 1.3rem;
+    font-family: Saira;
+    color: white;
+}
+
+.kancelaria {
+    background-image: url(../img/t%C5%82o_2.jpg);
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+
+}
+
+.text_kontakt {
+    font-family: Playfair Display;
+    padding: 20px 0;
+
+}
+
+.kont_h1 {
+    font-family: Cinzel;
+    font-size: 3rem;
+}
+
+.p_kont {
+    font-size: 1.1rem;
+}
+
+.copyright {
+    padding: 10px 10px;
+    background-color: #1a441f;
+}
+
+.p_top {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.scrollToTop {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: 2px solid black;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #f8ce3d;
+    /* Set a background color */
+    color: black;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 2px 5px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 25px;
+    /* Increase font size */
+    opacity: 0.5;
+    transition: 0.2s
+}
+
+.scrollToTop:hover {
+    background-color: #ffdd8e;
+    opacity: 1
+    /* Add a dark-grey background on hover */
+}
+
+.fa-angle-double-up {
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 0px 0px
+}
